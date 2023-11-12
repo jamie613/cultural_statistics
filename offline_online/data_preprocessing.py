@@ -104,3 +104,5 @@ drop_cols = ['offline', 'online', 'w1', 'w',
              'v25_2', 'v25_11']
 
 df = df.drop(drop_cols, axis = 1)
+
+df.to_csv('2018_2019_train.csv')
